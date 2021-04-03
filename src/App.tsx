@@ -17,7 +17,7 @@ export const App: React.FC = () => {
 
   return (
       <div className="main">
-        <div>
+        <div className="switch-menu">
           <div onClick={() => setPage(1)}>1</div>
           <div onClick={() => setPage(2)}>2</div>
           <div onClick={() => setPage(3)}>3</div>
