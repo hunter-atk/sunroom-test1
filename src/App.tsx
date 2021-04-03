@@ -16,21 +16,23 @@ export const App: React.FC = () => {
   }, [page]);
 
   return (
-      <div className="main">
+    <div className="main">
+      <div>
         <div className="switch-menu">
           <div onClick={() => setPage(1)}>1</div>
           <div onClick={() => setPage(2)}>2</div>
           <div onClick={() => setPage(3)}>3</div>
         </div>
-        {page == 1 ? <View1/> : null}
-        {page == 2 ? <View2/> : null}
-        {page == 3 ? <View3/> : null}
-        {/* <View1 />
+        {page == 1 ? <View1 /> : null}
+        {page == 2 ? <View2 /> : null}
+        {page == 3 ? <View3 /> : null}
+      </div>
+      {/* <View1 />
         <View2 />
         <View3 /> */}
-        {/* <Route path="/" exact component={View1} />
+      {/* <Route path="/" exact component={View1} />
       <Route path="/2" component={View2} />
       <Route path="/3" component={View3} />  */}
-      </div> 
+    </div>
   );
 }
