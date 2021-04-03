@@ -1,0 +1,55 @@
+@import ../../styles/Variables.sass
+
+.dt-horiz-flex-container
+    height: 38px
+    min-width: 140px
+    width: auto
+    display: flex
+    align-items: center
+    padding: 8px
+    border-radius: 15px
+    border: 1px solid $borderGray
+    flex-shrink: 0
+    z-index: 3
+    position: relative
+
+    &:not(:nth-last-child(2))
+        margin-right: 16px
+
+    &.active
+        background: $white
+        border: none 
+        box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.014), 0 12.5px 10px rgba(0, 0, 0, 0.02)
+
+.dt-img-container
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 20px
+    height: 20px
+    border-radius: 10px
+    margin-right: 6px
+    flex-shrink: 0
+    background: $borderGray
+
+.dt-img-container img 
+    width: 12px
+    height: 12px
+
+.dt-horiz-flex-container span 
+    color: $fontBlue
+    font-size: 12px
+    font-weight: $heavy
+    white-space: nowrap
+
+.dt-icon
+    width: 20px
+    height: 20px
+    border-radius: 10px
+    background-size: 10px 
+    background-position: center
+    background-repeat: no-repeat
+    background: $borderGray
+    margin-right: 6px
+    flex-shrink: 0
+

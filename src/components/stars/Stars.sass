@@ -1,0 +1,29 @@
+@import ../../styles/Variables.sass
+
+.stars-container
+    display: flex
+    justify-content: flex-start
+    align-items: center
+
+.stars-container img
+    width: 11px
+    height: 11px
+    flex-shrink: 0
+
+    &:last-child
+        margin-right: 10px
+
+    &:not(:last-child)
+        margin-right: 3px
+
+.stars-main
+    display: flex
+    align-items: center
+
+.stars-text span
+    font-size: 13px
+
+.stars-review-numbers
+    font-weight: $heavy
+    font-size: 14px
+

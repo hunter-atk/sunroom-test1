@@ -1,7 +1,6 @@
 import * as React from 'react';
 
 // images
-import HeadShot from '../../assets/headshot.jpg'
 import LocationIcon from '../../assets/location-icon.svg'
 import SearchIcon from '../../assets/search-icon.svg'
 
@@ -11,7 +10,7 @@ import './MenuAndSearch.sass';
 export const MenuAndSearch: React.FC = () => {
 
   return (
-    <div>
+    <div className="ms-main">
       <div className="ms-horiz-flex-container">
         <div className="ms-menu-button" />
         <div>
@@ -21,7 +20,7 @@ export const MenuAndSearch: React.FC = () => {
             <span>Semarang, INA</span>
           </div>
         </div>
-        <img className="ms-headshot" src={HeadShot} />
+        <div className="ms-headshot" />
       </div>
       <div className="ms-search-bar">
         <img className="ms-search-icon" src={SearchIcon} />
