@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/sunroom-test1/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/sunroom-test1/static/js/main.768a16d2.chunk.js",
-    "main.js.map": "/sunroom-test1/static/js/main.768a16d2.chunk.js.map",
-    "runtime-main.js": "/sunroom-test1/static/js/runtime-main.566d2215.js",
-    "runtime-main.js.map": "/sunroom-test1/static/js/runtime-main.566d2215.js.map",
+    "main.css": "/sunroom-test1/static/css/main.f3450c0f.chunk.css",
+    "main.js": "/sunroom-test1/static/js/main.48c89520.chunk.js",
+    "main.js.map": "/sunroom-test1/static/js/main.48c89520.chunk.js.map",
+    "runtime-main.js": "/sunroom-test1/static/js/runtime-main.8b500042.js",
+    "runtime-main.js.map": "/sunroom-test1/static/js/runtime-main.8b500042.js.map",
     "static/js/2.c277f799.chunk.js": "/sunroom-test1/static/js/2.c277f799.chunk.js",
     "static/js/2.c277f799.chunk.js.map": "/sunroom-test1/static/js/2.c277f799.chunk.js.map",
-    "static/js/3.0e0d15f8.chunk.js": "/sunroom-test1/static/js/3.0e0d15f8.chunk.js",
-    "static/js/3.0e0d15f8.chunk.js.map": "/sunroom-test1/static/js/3.0e0d15f8.chunk.js.map",
     "index.html": "/sunroom-test1/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/sunroom-test1/static/css/main.9d5b29c0.chunk.css.map",
+    "static/css/main.f3450c0f.chunk.css.map": "/sunroom-test1/static/css/main.f3450c0f.chunk.css.map",
     "static/js/2.c277f799.chunk.js.LICENSE.txt": "/sunroom-test1/static/js/2.c277f799.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/sunroom-test1/static/media/logo.6ce24c58.svg"
+    "static/media/clock-icon.348dba2a.svg": "/sunroom-test1/static/media/clock-icon.348dba2a.svg",
+    "static/media/headshot.e0ba1162.jpg": "/sunroom-test1/static/media/headshot.e0ba1162.jpg",
+    "static/media/headshot2.a9f54e15.jpg": "/sunroom-test1/static/media/headshot2.a9f54e15.jpg",
+    "static/media/location-icon.bc3c2543.svg": "/sunroom-test1/static/media/location-icon.bc3c2543.svg",
+    "static/media/View1.sass": "/sunroom-test1/static/media/menu-icon.3859e175.svg",
+    "static/media/search-icon.6c2bf704.svg": "/sunroom-test1/static/media/search-icon.6c2bf704.svg",
+    "static/media/switch-icon.687ced4e.svg": "/sunroom-test1/static/media/switch-icon.687ced4e.svg",
+    "static/media/UpcomingSchedule.sass": "/sunroom-test1/static/media/video-camera.b13c6965.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.566d2215.js",
+    "static/js/runtime-main.8b500042.js",
     "static/js/2.c277f799.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.768a16d2.chunk.js"
+    "static/css/main.f3450c0f.chunk.css",
+    "static/js/main.48c89520.chunk.js"
   ]
 }
