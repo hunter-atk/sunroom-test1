@@ -15,9 +15,9 @@ export const App: React.FC = () => {
         <View2 />
         <View3 />
       </div> */}
-      <Route path="/" exact component={View1} />
-      <Route path="/2" component={View2} />
-      <Route path="/3" component={View3} />
+      <Route path="/sunroom-test1" exact component={View1} />
+      <Route path="/sunroom-test1/2" component={View2} />
+      <Route path="/sunroom-test1/3" component={View3} />
     </Router>
   );
 }
