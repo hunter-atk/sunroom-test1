@@ -4,7 +4,7 @@ import * as React from 'react';
 import { MainTemplate } from '../index'
 
 // styles
-import './View3.sass';
+// import './View3.sass';
 
 export const View3: React.FC = () => {
   
