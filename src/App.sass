@@ -1,0 +1,32 @@
+@import ./styles/Variables.sass
+
+*
+    box-sizing: border-box
+
+body
+    margin: 0
+    font-family: $poppins
+    color: $mediumGray
+    font-weight: $medium
+
+input[type=text]:focus
+    outline: none
+
+p
+    margin: 0
+
+::placeholder
+  color: $mediumGray
+  opacity: 0.6
+
+.main
+    width: 100vw
+    height: auto
+    min-height: 100vh
+    padding: 30px
+    display: flex
+    justify-content: space-evenly
+    flex-wrap: wrap
+    background-color: $background
+
+

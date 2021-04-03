@@ -1,0 +1,61 @@
+@import ../../styles/Variables.sass
+
+.ms-headshot
+    width: 40px
+    height: 40px
+    border: 4px solid $white
+    border-radius: 11px
+
+.ms-horiz-flex-container
+    width: 100%
+
+.ms-horiz-flex-container * p
+    text-align: center
+    font-size: 12px
+
+.ms-horiz-flex-container * span
+    font-size: 14px
+    font-weight: $heavy
+    color: $fontBlue
+
+.ms-horiz-flex-container, .ms-location-container
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.ms-location-icon
+    width: 12px
+    height: auto
+    margin-right: 3px
+
+.ms-menu-button
+    width: 40px
+    height: 40px
+    background: $white
+    background-image: url("../../assets/menu-icon.svg")
+    background-position: center
+    background-repeat: no-repeat
+    background-size: 20px
+    border-radius: 11px
+
+.ms-search-bar
+    width: 100%
+    height: 40px
+    border-radius: 11px
+    background: $white
+    margin-top: 40px
+    box-shadow: 0 2.8px 6.2px rgba(0, 0, 0, 0.014), 0 6.7px 8.3px rgba(0, 0, 0, 0.014)
+    display: flex
+    align-items: center
+    padding-right: 20px
+
+.ms-search-bar input 
+    width: 100%
+    border: none
+    color: $mediumGray !important
+
+.ms-search-icon
+    width: 16px
+    height: auto
+    margin: auto 20px
+    transform: scaleX(-1)

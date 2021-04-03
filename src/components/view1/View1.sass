@@ -1,0 +1,39 @@
+@import ../../styles/Variables.sass
+
+.view1-headshot
+    width: 45px
+    height: 45px
+    border: 4px solid $white
+    border-radius: 13px
+
+.view1-horiz-flex-container
+    width: 100%
+
+.view1-horiz-flex-container * p 
+    text-align: center
+    font-size: 12px
+
+.view1-horiz-flex-container * span
+    font-size: 14px
+    font-weight: $heavy
+    color: $fontBlue
+
+.view1-horiz-flex-container, .view1-location-container
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.view1-location-icon
+    width: 15px
+    height: auto
+    margin-right: 3px
+
+.view1-menu-button
+    width: 45px
+    height: 45px
+    background: $white
+    background-image: url("../../assets/menu-icon.svg")
+    background-position: center
+    background-repeat: no-repeat
+    background-size: 25px
+    border-radius: 13px
