@@ -4,7 +4,7 @@ import * as React from 'react';
 import { MainTemplate, VideoCallMenu, VideoCallTop, VideoDocInfo, VideoDocVolumeSlider } from '../index'
 
 // styles
-import './View3.sass';
+// import './View3.sass';
 
 export const View3: React.FC = () => {
   
