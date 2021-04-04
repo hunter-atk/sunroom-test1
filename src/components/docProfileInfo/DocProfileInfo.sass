@@ -2,10 +2,16 @@
 
 .dpi-bio
 
-.dpi-bio h3 
-    font-size: 14px
+.dpi-bio h3, .dpi-location h3 
     color: $fontBlue
+    font-size: 14px
     margin: 0 0 10px 0
+
+.dpi-location
+    width: 100%
+
+.dpi-location h3 
+    margin-top: 20px
 
 .dpi-bio p
     font-size: 11px
@@ -13,20 +19,68 @@
 
 .dpi-bio span
     color: $blue
-    white-space: nowrap
     font-weight: $heavy
+    white-space: nowrap
 
 .dpi-main
-    display: flex 
-    flex-wrap: wrap
     align-content: space-between
-    width: calc(100% - 60px)
-    height: 175px
     background: $white
     border-radius: 20px
+    box-shadow: 0 2.8px 6.2px rgba(0, 0, 0, 0.014), 0 6.7px 8.3px rgba(0, 0, 0, 0.014), 0 8.7px 12.3px rgba(0, 0, 0, 0.024)
+    display: flex 
+    flex-wrap: wrap
+    height: auto
     margin: 30px 30px 0 30px
     padding: 28px 22px
     position: relative
+    width: calc(100% - 60px)
     z-index: 3
-    box-shadow: 0 2.8px 6.2px rgba(0, 0, 0, 0.014), 0 6.7px 8.3px rgba(0, 0, 0, 0.014), 0 8.7px 12.3px rgba(0, 0, 0, 0.024)
 
+.dpi-map
+    background-image: url(../../assets/map.png)
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    border-radius: 20px
+    box-shadow: 0 2.8px 6.2px rgba(0, 0, 0, 0.014), 0 6.7px 8.3px rgba(0, 0, 0, 0.014), 0 8.7px 12.3px rgba(0, 0, 0, 0.014), 0 6.7px 8.3px rgba(0, 0, 0, 0.014), 0 10.7px 14.3px rgba(0, 0, 0, 0.014)
+    height: 135px
+    width: 100%
+
+.dpi-review
+    align-items: center
+    display: flex
+    margin-top: 10px
+    width: 100%
+
+.dpi-review div h3 
+    color: black
+    font-size: 13px
+    margin: 0
+
+.dpi-review div p 
+    font-size: 12px
+    opacity: 0.65
+
+.dpi-review img 
+    border-radius: 13px
+    box-shadow: 0 2.8px 6.2px rgba(0, 0, 0, 0.014), 0 6.7px 8.3px rgba(0, 0, 0, 0.054)
+    height: 50px
+    margin-right: 15px
+    width: 50px
+
+.dpi-reviews-top
+    align-items: center
+    display: flex 
+    justify-content: space-between
+    margin-top: 30px
+    width: 100%
+
+.dpi-reviews-top h3
+    color: $fontBlue
+    font-size: 14px
+    margin: 0
+
+.dpi-reviews-top p
+    color: $blue
+    font-size: 12px
+    font-weight: $heavy

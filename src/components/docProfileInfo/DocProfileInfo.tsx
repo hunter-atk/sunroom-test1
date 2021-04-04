@@ -1,11 +1,7 @@
 import * as React from 'react';
 
-// components
-import { MapContainer } from '../index'
-
 // images
-import HeadShot2 from '../../assets/headshot2.jpg'
-import ClockIcon from '../../assets/clock-icon.svg'
+import HeadShot3 from '../../assets/headshot3.jpg'
 
 // styles
 import './DocProfileInfo.sass';
@@ -20,7 +16,18 @@ export const DocProfileInfo: React.FC = () => {
       </div>
       <div className="dpi-location">
         <h3>Location</h3>
-        <MapContainer />
+        <div className="dpi-map" />
+      </div>
+      <div className="dpi-reviews-top">
+        <h3>Reviews</h3>
+        <p>See all</p>
+      </div>
+      <div className="dpi-review">
+        <img src={HeadShot3} />
+        <div>
+          <h3>Alexander Hudson</h3>
+          <p>"Lorem ipsum dolor sit amet."</p>
+        </div>
       </div>
     </div>
   );

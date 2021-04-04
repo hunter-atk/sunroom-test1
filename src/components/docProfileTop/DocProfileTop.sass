@@ -1,22 +1,22 @@
 @import ../../styles/Variables.sass
 
 .dpt-horiz-flex-container
-    width: 100%
+    align-items: center
     display: flex
     justify-content: space-between
-    align-items: center
+    width: 100%
 
 .dpt-main
     margin: 0 30px
 
 .dpt-back-button, .dpt-contact-button, .dpt-stat-icon-ratings, .dpt-stat-icon-patients
-    width: 40px
-    height: 40px
     background: $white
     background-position: center
     background-repeat: no-repeat
     border-radius: 11px
     box-shadow: 0 2.8px 6.2px rgba(0, 0, 0, 0.014), 0 6.7px 8.3px rgba(0, 0, 0, 0.014)
+    height: 40px
+    width: 40px
 
 .dpt-back-button
     background-image: url("../../assets/left-arrow-icon.svg")
@@ -27,20 +27,20 @@
     background-size: 22px
 
 .dpt-doc-image
-    width: 100px
-    height: 150px
     background-image: url(../../assets/full-shot1.jpg)
     background-size: cover
     background-position: center
     background-repeat: no-repeat
-    margin-right: 25px
     border-radius: 20px
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072)
+    height: 150px
+    margin-right: 25px
+    width: 100px
 
 .dpt-doc-info
-    width: 100%
     display: flex
     margin-top: 40px
+    width: 100%
 
 .dpt-doc-stats
     margin-top: 5px
@@ -49,21 +49,21 @@
     margin-bottom: 11px
 
 .dpt-info-text-container h3 
-    font-size: 16px
     color: $fontBlue
+    font-size: 16px
     margin: 0 0 4px 0
 
 .dpt-info-text-container p 
-    font-size: 12px
     color: $mediumGray
+    font-size: 12px
     font-weight: $medium
 
 .dpt-stat-container
-    width: auto
-    height: auto
-    display: flex 
     align-items: center
+    display: flex
+    height: auto
     margin-top: 10px
+    width: auto 
 
 .dpt-stat-icon-patients, .dpt-stat-icon-ratings
     margin-right: 15px

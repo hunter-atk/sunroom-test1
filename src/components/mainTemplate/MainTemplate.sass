@@ -2,11 +2,19 @@
     
 .template-main
     background-color: $coolWhite
-    width: 375px
     height: 100vh
+    max-width: $viewWidth
     padding: 45px 0 120px 0
     position: relative
     overflow-y: scroll
+    width: 100vw
 
 .template-main::-webkit-scrollbar
     width: 0
+
+.template-portrait
+    background: url('../../assets/portrait.jpg')
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%), url('../../assets/portrait.jpg')
+    background-position: center top 
+    background-repeat: no-repeat
+    background-size: cover
