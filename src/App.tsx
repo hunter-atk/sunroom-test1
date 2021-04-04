@@ -19,9 +19,9 @@ export const App: React.FC = () => {
     <div className="main">
       <div>
         <div className="switch-menu">
-          <div onClick={() => setPage(1)}>1</div>
-          <div onClick={() => setPage(2)}>2</div>
-          <div onClick={() => setPage(3)}>3</div>
+          <div className={page == 1 ? "active" : undefined} onClick={() => setPage(1)}>1</div>
+          <div className={page == 2 ? "active" : undefined} onClick={() => setPage(2)}>2</div>
+          <div className={page == 3 ? "active" : undefined} onClick={() => setPage(3)}>3</div>
         </div>
         {page == 1 ? <View1 /> : null}
         {page == 2 ? <View2 /> : null}
