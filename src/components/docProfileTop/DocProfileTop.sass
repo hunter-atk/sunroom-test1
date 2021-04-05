@@ -32,9 +32,27 @@
     background-position: center
     background-repeat: no-repeat
     border-radius: 20px
-    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072)
+    // box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072)
     height: 150px
     margin-right: 25px
+    position: absolute
+    top: 0
+    width: 100px
+
+.dpt-doc-image-container
+    position: relative
+
+.dpt-doc-image-shadow
+    background: radial-gradient(circle, rgba(247,247,255,0) 0%, rgba(247,247,255,1) 70%, rgba(247,247,255,1) 100%), url(../../assets/full-shot1.jpg)
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    border-radius: 20px
+    filter: blur(8px)
+    height: 150px
+    margin-right: 25px
+    position: absolute
+    top: 50px
     width: 100px
 
 .dpt-doc-info
@@ -44,6 +62,7 @@
 
 .dpt-doc-stats
     margin-top: 3px
+    margin-left: 125px
 
 .dpt-info-text-container
     margin-bottom: 11px

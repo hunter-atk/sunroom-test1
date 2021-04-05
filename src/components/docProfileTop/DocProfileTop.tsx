@@ -12,7 +12,10 @@ export const DocProfileTop: React.FC = () => {
         <div className="dpt-contact-button" />
       </div>
       <div className="dpt-doc-info">
-        <div className="dpt-doc-image" />
+        <div className="dpt-doc-image-container">
+          <div className="dpt-doc-image-shadow" />
+          <div className="dpt-doc-image" />
+        </div>
         <div className="dpt-doc-stats">
           <div className="dpt-info-text-container">
             <h3>Dr. Alex Robinson</h3>
